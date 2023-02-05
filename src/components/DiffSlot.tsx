@@ -1,0 +1,38 @@
+import React from 'react';
+
+
+const DiffSlot: React.FC = ({ champion }) => {
+  
+  return (
+
+    <div className="flex flex-col w-1/5 items-center border-2 border-white p-4 m-6"> 
+      <div className="flex items-center">
+        {/* <img src={icon} alt="Champion Icon" className="w-12 h-12" /> */}
+        <div className="text-lg uppercase font-medium ml-4">{champion.Name}</div>
+      </div>
+
+      <div className="mt-4 flex flex-col w-full items-center">
+        
+        {champion['Base Stats'] && (
+          <p className='text-sm'>Base Stats: {champion['Base Stats'].Old} {'->'} {champion['Base Stats'].New}</p>
+        )}
+
+        {champion.Q && (
+          <p className='text-sm'>Q: {champion.Q.Old} {'->'} {champion.Q.New}</p>
+        )}
+
+        {champion.W && (
+          <p className='text-sm'>W: {champion.W.Old} {'->'} {champion.W.New}</p>
+        )}
+
+        {champion.E && (
+          <p className='text-sm'>E: {champion.E.Old} {'->'} {champion.E.New}</p>
+        )}
+
+
+      </div>
+    </div>
+  );
+};
+
+export default DiffSlot;
