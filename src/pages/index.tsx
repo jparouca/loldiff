@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import DiffSlot from '../components/DiffSlot';
 import Head from 'next/head';
 
-import datajson from '../data/13_1B.json';
+import datajson from '../data/13_1B.json'
 
 const Home = () => {
   const [data, setData] = useState(datajson);
@@ -33,3 +33,5 @@ const Home = () => {
 };
 
 export default Home;
+
+
