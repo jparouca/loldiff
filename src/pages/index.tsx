@@ -4,8 +4,9 @@ import Head from 'next/head';
 
 import datajson from '../data/13_1B.json'
 
+
 const Home = () => {
-  const [data, setData] = useState(datajson);
+  const [data] = useState(datajson);
 
   return (
     <>
@@ -15,11 +16,11 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="mt-8 flex justify-center">
+      <header className="mt-8 mb-8  flex justify-center">
         <h1 className="text-6xl font-bold text-white">LOLdiff</h1>
       </header>
 
-      <main className="flex max-w-5xl flex-wrap justify-center">
+      <main className="flex min-w-full w-1/5 flex-wrap justify-center">
       
       {data.Champions.map((champion) => (
         <DiffSlot
