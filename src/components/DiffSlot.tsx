@@ -3,20 +3,20 @@ import React from 'react';
 export type Champion = {
   Name: string;
   'Base Stats'?: {
-    Old: string;
-    New: string;
+    Old: string | number;
+    New: string | number;
   };
   Q?: {
-    Old: string;
-    New: string;
+    Old: string | number;
+    New: string | number;
   };
   W?: {
-    Old: string;
-    New: string;
+    Old: string | number;
+    New: string | number;
   };
   E?: {
-    Old: string;
-    New: string;
+    Old: string | number;
+    New: string | number;
   };
 };
 
