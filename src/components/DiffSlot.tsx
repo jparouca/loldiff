@@ -1,7 +1,16 @@
 import React, { useEffect } from 'react';
 
+interface Patch {
+  Changes: string[]
+}
 
-const DiffSlot: React.FC<{ championName: string, patches: any }> = ({ championName, patches }) => {
+interface Patches {
+  [patch: string]: Patch
+}
+
+
+
+const DiffSlot: React.FC<{ championName: string, patches: Patches }> = ({ championName, patches }) => {
   const [isExpanded, setExpanded] = React.useState(false);
 
   return (
@@ -15,7 +24,7 @@ const DiffSlot: React.FC<{ championName: string, patches: any }> = ({ championNa
           <li key={patch} className="flex">
             <pre className="text-sm font-bold">{patch}: </pre>
             <ul>
-              {patches[patch].Changes.map((change: any , index: any ) => (
+              { patches[patch]?.Changes  && patches[patch]?.Changes.map((change: any , index: any ) => (
                 <li key={index} className="text-xs text-gray-">
                   {change}
                 </li>
