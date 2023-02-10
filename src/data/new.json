@@ -1,0 +1,178 @@
+{
+  "Aatrox": {
+    "Patches": {
+      "11.3": {
+        "Changes": [
+          "Base attack damage increased from 65 to 68",
+          "Q - The Darkin Blade: Base damage increased from 60/100/140/180/220 to 65/105/145/185/225"
+        ]
+      },
+      "11.4": {
+        "Changes": [
+          "W - Infernal Chains: Base damage increased from 70/115/160/205/250 to 75/120/165/210/255"
+        ]
+      }
+    }
+  },
+  "Ahri": {
+    "Patches": {
+      "11.2": {
+        "Changes": [
+          "Base health regeneration increased from 6.5 to 7",
+          "E - Charm: Base damage increased from 60/90/120/150/180 to 65/95/125/155/185"
+        ]
+      },
+      "11.3": {
+        "Changes": [
+          "R - Spirit Rush: Base damage increased from 70/110/150 to 80/120/160"
+        ]
+      }
+    }
+  },
+  "Amumu": {
+    "Patches": {
+      "11.3": {
+        "Changes": [
+          "Q - Bandage Toss: Mana cost increased from 40/45/50/55/60 to 45/50/55/60/65",
+          "E - Tantrum: Damage decreased from 80/110/140/170/200 (+50% AP) to 65/100/135/170/205 (+50% AP)"
+          ]
+      }
+    }
+  },
+  "K'sante": {
+    "Patches": {
+      "13.3": {
+        "Changes": [
+          "Base Stats: Health Growth increased from 108 to 114",
+          "Q - Ntofo Strikes: Q3 Knock Up Duration reduced from 1 second to 0.65 seconds, Q3 Stun Duration reduced from 1-1.25 seconds to 1 second",
+          "W - Path Maker: Minimum Stun Duration reduced from 0.35/0.45/0.55/0.65/0.75 seconds to 0.3/0.35/0.4/0.45/0.5 seconds",
+          "R - All Out: Resistances Lost increased from 65% Bonus Resistances to 85% Bonus Resistances"
+        ]
+      }
+    }
+  },
+  "Kassadin": {
+    "Patches": {
+      "13.3": {
+        "Changes": [
+          "E - Force Pulse: Base Damage reduced from 80/105/130/155/180 (+85% AP) to 60/90/120/150/180 (+85% AP), Cooldown from Nearby Casts reduced from 1 second to 0.75 seconds",
+          "R - Riftwalk: Magic Damage reduced from 80/100/120 (+40% AP) (+2% maximum mana) to 70/90/110 (+40% AP) (+2% maximum mana), Bonus Damage per Stack reduced from 40/50/60 (+10% AP) (+1% maximum mana) to 35/45/55 (+10% AP) (+1% maximum mana)"
+        ]
+      }
+    }
+  },
+  "Kayle": {
+    "Patches": {
+      "13.3": {
+        "Changes": [
+        "Passive - Divine Ascent: Exalted Bonus Move Speed increased from 8% to 10%",
+        "E - Starfire Spellblade: Passive On-hit Damage increased from 15/20/25/30/35 (+10% bonus AD) (+20% AP) to 15/20/25/30/35 (+10% bonus AD) (+25% AP)"
+        ]
+      }
+    }
+  },
+  "Kayn": {
+    "Patches": {
+      "13.3": {
+        "Changes": [
+          "Passive - The Darkin Scythe: Shadow Assassin Bonus increased from 13-40% (based on level) of post-mitigation damage to champions is repeated as magic damage for the first 3 seconds of damaging champions -> 15-45% (based on level) of post-mitigation damage to champions is repeated as magic damage for the first 3 seconds of damaging champions",
+          "Q - Reaping Slash: Physical Damage increased from 75/95/115/135/155 (+65% bonus AD) to 75/95/115/135/155 (+80% bonus AD) (Note: This will not affect Rhaast’s damage, as he has separate Q values)"
+        ]
+      }
+    }
+  },
+  "LeBlanc": {
+    "Patches": {
+      "13.3": {
+        "Changes": [
+          "Base Stats: Mana Regeneration increased from 6 to 8, Mana Regeneration Growth increased from 0.8 to 1",
+          "Q - Sigil of Malice: Mana Cost reduced to 50 at all ranks",
+          "R - Mimic: Cooldown reduced from 60/45/30 seconds to 50/40/30 seconds"
+        ]
+      }
+    }
+  },
+  "LeeSin": {
+  "Patches": {
+    "13.3": {
+      "Changes": [
+        "Q - Sonic Wave / Resonating Strike: Sonic Wave Physical Damage increased from 55/80/105/130/155 (+100% bonus AD) to 55/80/105/130/155 (+110% bonus AD)",
+        "E - Tempest / Cripple: Total Damage changed from 100/130/160/190/220 (+100% bonus AD) to 35/65/95/125/155 (+100% total AD), Slow increased from 20/30/40/50/60% to 20/35/50/65/80%"
+        ]
+      }
+    }
+  },
+  "Trundle": {
+    "Patches": {
+      "13.3": {
+        "Changes": [
+        "W - Frozen Domain: Cooldown reduced from 18/17/16/15/14 seconds to 16/15/14/13/12 seconds",
+        "Important Information: Trundle's dance speed now scales with Trundle's move speed."
+        ]
+      }
+    }
+  },
+  "Zac": {
+    "Patches": {
+      "13.3": {
+        "Changes": [
+        "W - Unstable Matter: Magic Damage changed from 35/50/65/80/95 (+4/5/6/7/8% (+4% per 100 AP) of target's maximum health to 35/50/65/80/95 (+4/5/6/7/8% (+3% per 100 AP) of target's maximum health",
+        "E - Elastic Slingshot: Magic Damage changed from 60/110/160/210/260 (+90% AP) to 60/105/150/195/240 (+80% AP)"
+        ]
+      }
+    }
+  },
+  "Alistar": {
+    "Patches": {
+      "13.3": {
+        "Changes": [
+          "Passive - Triumphant Roar: Self Heal changed from 23-142 (based on level) to 5% maximum health, Ally Heal changed from 46-284 (based on level) to 6% of Alistar’s maximum health",
+          "Q - Pulverize: Mana Cost reduced from 55/60/65/70/75 to 50/55/60/65/70, Magic Damage increased from 60/100/140/180/220 (+50% AP) to 60/100/140/180/220 (+70% AP)",
+          "W - Headbutt: Mana Cost reduced from 65/70/75/80/85 to 50/55/60/65/70, Magic Damage increased from 55/110/165/220/275 (+70% AP) to 55/110/165/220/275 (+90% AP)",
+          "E - Trample: Mana Cost reduced from 50/60/70/80/90 to 50/55/60/65/70, Total Magic Damage increased from 80/110/140/170/200 (+40% AP) to 80/110/140/170/200 (+70% AP)"
+        ]
+      }
+    }
+  },
+  "Braum": {
+    "Patches": {
+      "13.3": {
+        "Changes": [
+          "Passive - Concussive Blows: Target Immunity Duration reduced from 8/6/4 seconds (levels 1/7/13) to 8/6/4 (levels 1/6/11)",
+          "Q - Winter's Bite: Cooldown reduced from 10/9/8/7/6 seconds to 8/7.5/7/6.5/6 seconds",
+          "W - Stand Behind Me: Bonus Armor and Magic Resist increased from 10/14/18/22/26 to 20/25/30/35/40"
+        ]
+      }
+    }
+  },
+  "Nautilus": {
+    "Patches": {
+    "13.3": {
+      "Changes": [
+      "Passive - Staggering Blow: Bonus Damage increased from 8-110 (based on level) to 14-116 (based on level)",
+      "W - Titan's Wrath: Mana Cost reduced from 80 to 60, Shield Strength increased from 40/50/60/70/80 (+8/9/10/11/12% maximum health) to 50/60/70/80/90 (+8/9/10/11/12% maximum health)",
+      "E - Riptide: Magic Damage increased from 55/85/115/145/175 (+30% AP) to 55/90/125/160/195 (+50% AP)"
+      ]
+    }
+  },
+  "Pyke": {
+    "Patches": {
+      "13.3": {
+      "Changes": [
+      "E - Phantom Undertow: Physical damage increased from 105/135/165/195/225 (+100% bonus AD) to 105/145/185/225/265 (+100% bonus AD)"
+      ]
+    }
+  },
+  "Rakan": {
+    "Patches": {
+      "13.3": {
+        "Changes": [
+        "Q - Gleaming Quill: Cooldown reduced from 12/11/10/9/8 seconds to 11/10/9/8/7 seconds",
+        "Mana Cost reduced from 60 to 45",
+        "Base Heal increased from 30-115 (based on level) (+55% AP) to 40-210 (based on level) (+55% AP)",
+        "W - Grand Entrance: Magic Damage increased from 70/125/180/235/290 (+70% AP) to 70/120/170/220/270 (+80% AP)"
+        ]
+      }
+    }
+}
+}}}

@@ -1,12 +1,14 @@
-import { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import DiffSlot from '../components/DiffSlot';
 import Head from 'next/head';
-
-import datajson from '../data/champions_changes.json'
-
+import newjson from '../data/new.json'
 
 const Home = () => {
-  const [data] = useState(datajson);
+  const [champions] = useState(newjson);
+
+  const filteredChampions = Object.entries(champions).filter(([championName, patches]) => {
+    return patches.Patches.hasOwnProperty("13.3");
+  });
 
   return (
     <>
@@ -16,23 +18,20 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="mt-8 mb-8 flex justify-center">
-        <h1 className="text-6xl font-bold text-white">LOLdiff</h1>
+      <header className="mt-8 mb-8 max-w-screen-md mx-auto flex items-center justify-between">
+        <h1 className="text-6xl font-bold text-white text-center">LOL<span className='text-orange-900'>diff</span></h1>
+        <h2 className='flex flex-row'><pre>Patch: </pre> 13.3</h2>
       </header>
 
+
+
       <main className="flex flex-row flex-wrap justify-center">
-      
-      {data.Champions.map((champion) => (
-        <DiffSlot
-          key={champion.Name}
-          champion={champion}
-        />
-      ))}
+        {filteredChampions.map(([championName, patches], i) => (
+          <DiffSlot key={i} championName={championName} patches={patches.Patches} />
+        ))}
       </main>
     </>
   );
 };
 
 export default Home;
-
-
