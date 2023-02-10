@@ -15,7 +15,7 @@ const DiffSlot: React.FC<{ championName: string, patches: any }> = ({ championNa
           <li key={patch} className="flex">
             <pre className="text-sm font-bold">{patch}: </pre>
             <ul>
-              {patches[patch].Changes.map((change, index) => (
+              {patches[patch].Changes.map((change: any , index: any ) => (
                 <li key={index} className="text-xs text-gray-">
                   {change}
                 </li>
