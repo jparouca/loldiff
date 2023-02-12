@@ -15,14 +15,15 @@ const DiffSlot: React.FC<{ championName: string, patches: Patches }> = ({ champi
 
   return (
     <main className="flex flex-col border-2 border-white p-2 m-2 max-w-md flex-grow flex-shrink hover:scale-150 transition duration-500 ease-in-out bg-black">
+      
       <header className="flex-row flex mb-4">
         <img src={getIcon(championName)} className="w-12 h-12 float-left" />
         <div className="text-lg uppercase mt-2 font-medium">{championName}</div>
       </header>
+
       <ul className="max-w-full items-center">
         {Object.keys(patches).map((patch) => (
           <li key={patch} className="flex">
-            <pre className="text-sm font-bold">{patch}: </pre>
             <ul>
               { patches[patch]?.Changes  && patches[patch]?.Changes.map((change: string , index: number ) => (
                 <li key={index} className="text-xs text-gray-300">
@@ -33,12 +34,14 @@ const DiffSlot: React.FC<{ championName: string, patches: Patches }> = ({ champi
           </li>
         ))}
       </ul>
+
       <button
-        className="mt-4 text-xs uppercase font-medium"
+        className="mt-auto text-xs uppercase font-medium"
         onClick={() => setExpanded(!isExpanded)}
       >
         {isExpanded ? "hide" : "show"}
       </button>
+
     </main>
   );
 };
