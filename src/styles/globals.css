@@ -4,6 +4,7 @@
 
 
 html {
-  background-color: black;
-  color: white;
+  background-color: black; color: white;
+  --webkit-font-smoothing: antialiased;
+  margin: 0; padding: 0;
 }
